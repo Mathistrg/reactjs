@@ -5,7 +5,7 @@ import Welcome from "@/components/Welcome"
 export default function Home () {
     return (
       <main>
-        <Welcome name = "François"/>
+        <Welcome name = "Mouhammed de Noêl"/>
         <Counter/>
       </main>
     );
