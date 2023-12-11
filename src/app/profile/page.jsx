@@ -15,6 +15,10 @@ class Profile extends React.Component {
     componentDidUpdate(){
         console.log ("vous avez fait caca")
     }
+
+    componentWillUnmount(){
+        console.log ("Le caca se décharge")
+    }
     
     render(){
         return (

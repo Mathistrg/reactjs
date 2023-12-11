@@ -1,10 +1,18 @@
 "use client"
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const Counter = () => {
     const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        console.log ("la page à charger")
+    }, [])
+
+    useEffect(() => {
+        console.log ("le count à changer")
+    }, [count])
 
     return (
         <div>
